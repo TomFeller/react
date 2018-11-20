@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97360b11-b254-405d-8efe-3e45583e4341" name="Default" comment="">
+    <list default="true" id="97360b11-b254-405d-8efe-3e45583e4341" name="Default" comment="Merged reactsrap">
+      <change afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/_home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/articles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/recommendations.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/welcome.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-sage-react" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/archive.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/archive.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/image/image.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/image/image.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js" afterDir="false" />
     </list>
@@ -20,70 +27,116 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72803617">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="post.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="5" column="51" selection-start-column="7" selection-end-line="5" selection-end-column="51" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="archive.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/archive.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DataStore.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DataActions.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="880">
-                  <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="welcome.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/welcome.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accordion.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_home.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/_home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="89" column="39" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="89" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/faq.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/articles.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="13" column="24" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treatments.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/treatments.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reactstrap.es.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/node_modules/reactstrap/dist/reactstrap.es.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62080">
+              <caret line="3112" column="17" selection-start-line="3112" selection-start-column="6" selection-end-line="3112" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="67" column="17" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataActions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,18 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;Link</find>
-      <find>PageWrapper</find>
-      <find>&lt;Lin</find>
-      <find>index.js</find>
-      <find>const classNames = [</find>
-      <find>splice</find>
-      <find>props</find>
-      <find>openSections</find>
-      <find>Accordion</find>
-      <find>colors</find>
-      <find>AccordionExamples</find>
-      <find>@media</find>
       <find>${props =&gt;</find>
       <find>content</find>
       <find>Button</find>
@@ -114,7 +155,6 @@
       <find>getPages</find>
       <find>bla</find>
       <find>sub</find>
-      <find>dan</find>
       <find>dand</find>
       <find>primary</find>
       <find>action</find>
@@ -124,6 +164,19 @@
       <find>-prima</find>
       <find>.btn</find>
       <find>getPo</find>
+      <find>127.0.0.1:8</find>
+      <find>Home</find>
+      <find>&lt;Row</find>
+      <find>acf</find>
+      <find>Welcome</find>
+      <find>dange</find>
+      <find>featuredmedia</find>
+      <find>dangerouslySetInnerHTML</find>
+      <find>captionText</find>
+      <find>altText</find>
+      <find>dang</find>
+      <find>dan</find>
+      <find>Accordion</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -131,6 +184,7 @@
       <replace>Grid</replace>
       <replace>grid</replace>
       <replace>GridExamples</replace>
+      <replace>Treatments</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -146,18 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/animations.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/layout.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/grid.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/grid/grid.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel-style.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel-docs.js" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal-examples.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal-style.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text.js" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text-example.js" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text-example.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text-examples.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/button/button.jsx" />
@@ -182,21 +224,33 @@
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/alert/alert.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/typography.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion-examples.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion-style.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/tabs/tabs.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/tabs/tabs.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/tooltip/tooltip.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/tooltip/tooltip.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/popover/popover.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/popover/popover.jsx" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js" />
-        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/image/image.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/main.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/main.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/welcome.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/treatments.js" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/archive.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/Articles.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/treatments.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/recommendations.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/node_modules/reactstrap/dist/reactstrap.es.js" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/recommendations.jsx" />
         <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx" />
+        <option value="$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/faq.js" />
       </list>
     </option>
   </component>
@@ -267,6 +321,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage-sections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-sage-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-sage-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,7 +349,24 @@
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="popover" type="462c0819:PsiDirectoryNode" />
+              <item name="accordion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-sage-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="flux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-sage-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="flux" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +375,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="DataA&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/flux/actions/DataActions.js&#10;var&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scss/_variables.scss&#10;colors&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/style/colors.jsx&#10;button&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/button/button-examples.jsx&#10;DataS&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/index.js&#10;tex&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/text/text-examples.jsx&#10;.idea/workspace.xml&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/.idea/workspace.xml&#10;Animations&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/style/animations.jsx&#10;modal&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/modal/modal.jsx&#10;acc&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx&#10;Da&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/flux/actions/DataActions.js&#10;Home&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/home.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="ho&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/home.jsx&#10;Home&#9;null&#9;null&#10;DataA&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/flux/actions/DataActions.js&#10;var&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scss/_variables.scss&#10;colors&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/style/colors.jsx&#10;button&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/button/button-examples.jsx&#10;DataS&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/index.js&#10;tex&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/text/text-examples.jsx&#10;.idea/workspace.xml&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/.idea/workspace.xml&#10;Animations&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/style/animations.jsx&#10;modal&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/modal/modal.jsx&#10;acc&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx&#10;Da&#9;FILE&#9;file://C:/Users/tfell/Documents/GitHub/react/wp-sage-react/src/scripts/flux/actions/DataActions.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -298,18 +387,19 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src" />
-      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils\modal" />
-      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils" />
-      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils\button" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils\accordion" />
       <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\templates" />
       <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\footer" />
       <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\header" />
       <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components" />
+      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src" />
+      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils\modal" />
+      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils" />
+      <recent name="C:\Users\tfell\Documents\GitHub\react\wp-sage-react\src\scripts\components\utils\button" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,7 +586,16 @@
       <workItem from="1542701611635" duration="599000" />
       <workItem from="1542703650232" duration="599000" />
       <workItem from="1542705462153" duration="599000" />
-      <workItem from="1542717276456" duration="600000" />
+      <workItem from="1542717276456" duration="1734000" />
+      <workItem from="1542719077540" duration="1793000" />
+      <workItem from="1542720897331" duration="1779000" />
+      <workItem from="1542722703079" duration="1784000" />
+      <workItem from="1542724515362" duration="1578000" />
+      <workItem from="1542726602035" duration="1785000" />
+      <workItem from="1542728411020" duration="1783000" />
+      <workItem from="1542730217324" duration="1785000" />
+      <workItem from="1542732030598" duration="1330000" />
+      <workItem from="1542733840084" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="Add wp-sage-react">
       <created>1541364548525</created>
@@ -554,17 +653,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542266222545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add some reactstrap components">
+      <created>1542717930541</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542717930541</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180441000" />
+    <option name="totallyTimeSpent" value="196194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18387777" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18387777" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37302423" side_tool="true" weight="0.5533769" />
@@ -587,20 +693,20 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18387777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.6269758" weight="0.29302832" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37302423" side_tool="true" weight="0.5533769" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.6269758" visible="true" weight="0.17973857" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37302423" side_tool="true" weight="0.5533769" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -658,55 +764,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal-actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/layout.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/grid.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel-docs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/style/animations.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/text/text-examples.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -756,20 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel-examples.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/sass/style.scss" />
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/sass/components/_components.scss" />
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/sass/variables/_variables-colors.scss" />
@@ -808,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal-style.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/button/button.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -840,13 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2820">
           <caret line="141" selection-start-line="141" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -899,31 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/page-wrapper.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion-examples.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="38" column="11" selection-start-line="26" selection-start-column="8" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -941,23 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="51" selection-start-column="7" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/node_modules/reactstrap/dist/reactstrap.es.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4508" column="4" selection-start-line="4508" selection-start-column="4" selection-end-line="4508" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/tooltip/tooltip.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -972,36 +963,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js">
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="40">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js">
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/panel/panel-examples.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/page-wrapper.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/modal/modal-style.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/image/image.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/archive.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/templates/post.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/node_modules/reactstrap/dist/reactstrap.es.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62080">
+          <caret line="3112" column="17" selection-start-line="3112" selection-start-column="6" selection-end-line="3112" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/recommendations.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/slider/Slider.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/articles.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/actions/DataActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/flux/stores/DataStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/welcome.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/treatments.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/_home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="89" column="39" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="89" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/utils/accordion/accordion.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        <state relative-caret-position="1">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-sage-react/src/scripts/components/homepage-sections/faq.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
